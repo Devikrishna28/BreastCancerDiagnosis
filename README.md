@@ -23,6 +23,16 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Scikit-learn
+- Kotlin (if used in the Android application)
+- XML (if used for Android layouts)
+
 
 ## Files
 - `app.py` – Streamlit application source code.
