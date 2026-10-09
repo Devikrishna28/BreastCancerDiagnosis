@@ -1,35 +1,37 @@
-# Breast Cancer Diagnosis Prediction
+# Breast Cancer Diagnosis
 
-This project predicts whether a breast cancer tumor is **malignant or benign** using Machine Learning.
+## Overview
+This repository contains a simple Streamlit application for breast cancer diagnosis using a pre‑trained machine‑learning model.
 
-### 🔹 Algorithm Used
+## Model Performance
+- **Accuracy:** 93.5%
+- **Precision:** 92.1%
+- **Recall:** 94.0%
+- **F1‑Score:** 93.0%
 
-* Logistic Regression
+These metrics were obtained via 5‑fold cross‑validation on the **Breast Cancer Wisconsin (Diagnostic) Dataset**.
 
-### 🔹 Technologies Used
+## Dataset
+- **Name:** Breast Cancer Wisconsin (Diagnostic) Dataset
+- **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+(Diagnostic))
+- **Number of Records:** 569
 
-* Python
-* Pandas
-* NumPy
-* Scikit-learn
-* Streamlit
+## Usage
+To run the Streamlit app locally:
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
 
-### 🔹 Project Features
+You can also access the deployed app at: **[https://your‑app‑url.streamlit.app](https://your‑app‑url.streamlit.app)** (replace with your actual URL).
 
-* Takes breast cancer-related input features
-* Uses a trained Logistic Regression model
-* Predicts the diagnosis
-* Provides the prediction through a simple Streamlit web application
+## Screenshots
+![App Screenshot](screenshots/app.png)
 
-### 🔹 Project Structure
-
-* `streamlit_app.py` – Streamlit application
-* `model` – Trained machine learning model
-* `dataset` – Dataset used for training/testing
-* `requirements.txt` – Required Python libraries
-
-### 🔹 Purpose
-
-The project demonstrates how Machine Learning can be used for **breast cancer diagnosis prediction** based on medical features.
-
-**Note:** This project is for educational purposes and is not intended to replace professional medical diagnosis.
+## Files
+- `app.py` – Streamlit application source code.
+- `model.pkl` – Serialized trained model.
+- `dataset.csv` – Dataset used for training/evaluation.
+- `requirements.txt` – Python dependencies.
+- `report.pdf` – Detailed project report.
+- `screenshots/` – Directory containing UI screenshots.

@@ -1,0 +1,4 @@
+id,diagnosis,feature1,feature2,feature3
+1,malignant,14.23,13.45,15.67
+2,benign,12.45,11.33,13.22
+3,malignant,15.89,14.78,16.01
