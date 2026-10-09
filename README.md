@@ -23,10 +23,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-You can also access the deployed app at: **[https://your‑app‑url.streamlit.app](https://your‑app‑url.streamlit.app)** (replace with your actual URL).
-
-## Screenshots
-![App Screenshot](screenshots/app.png)
 
 ## Files
 - `app.py` – Streamlit application source code.
